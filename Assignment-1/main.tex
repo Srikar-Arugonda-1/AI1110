@@ -1,0 +1,65 @@
+\documentclass[12pt, journal]{IEEEtran}
+
+\usepackage{tfrupee}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Assignment-1 \\ \Large AI1110: Probability and Random Variables \\ \large Indian Institute of Technology Hyderabad}
+\author{Arugonda Srikar \\ \normalsize CS22BTECH11008}
+
+\begin{document}
+
+	\maketitle
+
+	\textbf{Solution}
+
+	\begin{enumerate}[label=(\roman*)]
+		\item 
+			E denotes the event that the card drawn is spade 
+			\begin{align}
+				P(E) = \dfrac{13}{52} = \dfrac{1}{4}
+			\end{align}
+			F denotes the event that card drawn is ace 
+			\begin{align}
+				P(F) = \dfrac{4}{52} = \dfrac{1}{13} \\
+				P(E \cap F) = \dfrac{1}{52}\\
+				P(E).P(F) = \dfrac{1}{4} \times \dfrac{1}{13} = \dfrac{1}{52}
+			\end{align}
+			\begin{align}
+				\therefore~P(E \cap F) = P(E).P(F)
+			\end{align}
+			$\therefore$  E and F are independent events. \\
+		\item
+			E denotes the event that the card drawn is black 
+			\begin{align}
+				P(E) = \dfrac{26}{52} = \dfrac{1}{2}
+			\end{align}
+			F denotes the event that card drawn is a king 
+			\begin{align}
+				P(F) = \dfrac{4}{52} = \dfrac{1}{13} \\
+				P(E \cap F) = \dfrac{2}{52} = \dfrac{1}{26} \\
+				P(E).P(F) = \dfrac{1}{2} \times \dfrac{1}{13} = \dfrac{1}{26}
+			\end{align}
+			\begin{align}
+				\therefore~P(E \cap F) = P(E).P(F)
+			\end{align}
+			$\therefore$  E and F are independent events. \\
+		\item
+			E denotes the event that the card drawn is king or queen
+			\begin{align}
+				P(E) = \dfrac{8}{52} = \dfrac{2}{13}
+			\end{align}
+			F denotes the event that card drawn is a queen or jack 
+			\begin{align}
+				P(F) = \dfrac{8}{52} = \dfrac{2}{13} \\
+				P(E \cap F) = \dfrac{4}{52} = \dfrac{1}{13}\\
+				P(E).P(F) = \dfrac{2}{13} \times \dfrac{2}{13} = \dfrac{4}{169}
+			\end{align}
+			\begin{align}
+				\therefore~P(E \cap F) \neq P(E).P(F)
+			\end{align}
+			$\therefore$  E and F are not independent events. \\
+		
+	\end{enumerate}
+\end{document}
