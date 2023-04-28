@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.23)  26 APR 2023 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.23)  28 APR 2023 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,28 +216,28 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 
 -- Lines per column: 50 (exact).
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
@@ -248,7 +248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
 Here is how much of TeX's memory you used:
  2829 strings out of 478287
  46594 string characters out of 5849289
- 352964 words of memory out of 5000000
+ 353964 words of memory out of 5000000
  21045 multiletter control sequences out of 15000+600000
  499871 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -260,7 +260,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 61842 bytes).
+Output written on main.pdf (1 page, 64659 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
