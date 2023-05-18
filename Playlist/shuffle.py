@@ -1,23 +1,28 @@
 import os
-import random
+import numpy
 from pygame import mixer
 l = os.listdir("songs")
-d = l
 mixer.init()
 print("\t\tp to pause\n\t\te to exit\n\t\tn to next song\n\t\tr to resume")
 while True:
-    if len(d)==0:
-        print("songs done")
-        break
-    while True:
-        p = random.choice(l)
-        if p in d:
+    if len(l)==0:
+        mixer.music.stop()
+        print("songs done. do you want to repeat?(y/n)")
+        r = input(" ")
+        if r=='n':
             break
-    d.remove(p)
+        else:
+            l = os.listdir("songs")
+#    while True:
+#       p = random.choice(l)
+#       if p in d:
+#           break
+    p = numpy.random.choice(l)
+    l.remove(p)
     mixer.music.load("songs/"+p)
-    mixer.music.set_volume(3)
+    mixer.music.set_volume(10)
     mixer.music.play()
-    print("playing....")
+    print("playing...."+p)
     while True:
         i = input(" ") 
         if i == 'p':
