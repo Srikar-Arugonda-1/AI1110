@@ -41,7 +41,7 @@ columns=fullflexible
 }
 
 
-\title{Assignment-1 \\ \Large AI1110: Probability and Random Variables \\ \large Indian Institute of Technology Hyderabad}
+\title{Assignment-3 \\ \Large AI1110: Probability and Random Variables \\ \large Indian Institute of Technology Hyderabad}
 \author{Arugonda Srikar \\ \normalsize CS22BTECH11008}
 
 \begin{document}
@@ -96,30 +96,26 @@ columns=fullflexible
 	\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
 	
 		\maketitle
-	\textbf{Question:12.13.3.4:}
-	In answering a question on a multiple choice test, a student either knows the answer or guesses. 
-	Let $\frac{3}{4}$ be the probability that he knows the answer and $\frac{1}{4}$ be the probability that he guesses.
-	Assuming that a student who guesses at the answer will be correct with probability $\frac{1}{4}$.
-	What is the probability that the student knows the answer given that he answered it correctly?\\
-	\textbf{Solution: }\\
-	let $X \in \{0, 1 \}$
-	$X=0$ means he guesses the answer
-	$X=1$ means he knows the answer\\
-	let $Y \in \{0, 1\}$
-	$Y=0$ means the answer is incorrect
-	$Y=1$ means the answer is correct\\
-	We need to find $\pr{X=1 \mid Y=1}$
-	From given information,
-	\begin{align}	
-		\pr{X=0}=\frac{1}{4}\\
-		\pr{X=1}=\frac{3}{4}\\
-		\pr{Y=1\mid X=0}=\frac{\frac{1}{4}\times\frac{1}{4}}{\frac{1}{4}}=\frac{1}{4}\\
-		\pr{Y=1\mid X=1}=\frac{1\times\frac{3}{4}}{\frac{3}{4}}=1
-	\end{align}
-	\begin{align}
-		\pr{X=1\mid Y=1}=\frac{\pr{Y=1\mid X=1}\pr{X=1}}{\pr{Y=1\mid X=1}\pr{X=1}+\pr{Y=1\mid X=0}\pr{X=0}}\\
-=\frac{1\times\frac{3}{4}}{1\times\frac{3}{4}+\frac{1}{4}\times\frac{1}{4}}\\
-		=\frac{12}{13}\\
-		\therefore~\pr{X=1\mid Y=1}=\frac{12}{13}
-	\end{align}
+		\textbf{Question 12.13.1.8:}
+		A die is thrown three times,
+		$E$: $4$ appears on third toss, $F$: $6$ and $5$ appears respectively on first two tosses. find $\pr{E \mid F}?$\\\\
+		\textbf{Solution}
+		$E$: $4$ appears on the third toss\\
+		$F$: $6$ and $5$ appears on first and second toss respectively
+		\begin{align}
+			\pr{E} = \frac{1}{6} 
+			\pr{F} = \frac{1}{36}
+		\end{align}
+		$E$ and $F$ are independent events
+		\begin{align}
+			\pr{EF} = \pr{E}\pr{F}
+		\end{align}
+		Then, 
+		\begin{align}
+			\pr{E \mid F} = \frac{\pr{EF}}{\pr{F}} \\
+			= \frac{\pr{E}\pr{F}}{\pr{F}}\\
+			= \pr{E}\\
+			= \frac{1}{6}\\
+			\therefore~ \pr{E \mid F} = \frac{1}{6}
+		\end{align}
 \end{document}
